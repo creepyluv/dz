@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 30px;
+    margin: 30px;
+}
+
+.elen {
+    background: blue;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.container {
+    width: 1140;
+    margin: 0 auto;
+}

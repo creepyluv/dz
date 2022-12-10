@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    
+
+    .elen {
+        background: red;
+    }
+}
+
+@media (max-width: 992px ) {
+
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .elen {
+        background: palevioletred;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .elen {
+        background: GREEN ;
+    }
+}
